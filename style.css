@@ -70,7 +70,7 @@ p {
     margin-bottom: 20px;
 }
 
-.code-block {
+code {
     width: 100%;
     padding: 25px;
     background-color: #f7f7f7;
@@ -78,7 +78,7 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin: 25px 0;
 }
 
 
@@ -89,6 +89,8 @@ p {
     flex-direction: column;
     font-family: 'Roboto Mono', monospace;
     position: fixed;
+    top: 0;
+    left: 0;
     float: left;
     margin-top: 40px;
     width: 40%;

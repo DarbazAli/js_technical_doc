@@ -9,3 +9,31 @@ body {
 }
 
 
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 28px;
+    font-weight: 700;
+    color: #383838;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.code-block {
+    width: 100%;
+    padding: 25px;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+
+.code-block p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+

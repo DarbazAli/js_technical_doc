@@ -37,6 +37,7 @@ p {
     max-width: 1004px;
     margin: 0 auto;
     padding: 0;
+    position: relative;
 }
 
 #main-doc {
@@ -68,18 +69,21 @@ p {
 
 #main-doc ul li {
     margin-bottom: 20px;
+    line-height: 1.5;
 }
 
-code {
-    width: 100%;
+.code-block {
     padding: 25px;
     background-color: #f7f7f7;
     border-radius: 3px;
     font-family: 'Roboto Mono', monospace;
     font-size: 15px;
     font-weight: 400;
+    width: 100%;
     margin: 25px 0;
 }
+
+
 
 
 
@@ -90,7 +94,6 @@ code {
     font-family: 'Roboto Mono', monospace;
     position: fixed;
     top: 0;
-    left: 0;
     float: left;
     margin-top: 40px;
     width: 40%;
